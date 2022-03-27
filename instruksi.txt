@@ -1,0 +1,8 @@
+1. masuk ke dalam folder application, kemudian rename file .env.example menjadi file .env
+2. ubah konfigurasi database yang ada di dalam file .env
+3. bukan folder application di dalam terminal
+4. jalankan perintah "composer update"
+5. setelah itu install application key dengan cara "php artisan key:generate"
+6. jalankan file migration and seeder "php artisan migrate --seed"
+7. jalankan perintah "php artisan storage:link"
+8. jalankan server application "php artisan serve"
